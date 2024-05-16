@@ -4,12 +4,7 @@
         <div class="card bg-white shadow-sm">
             <div class="card-body">
                 <h4 class="text-center">View Students Record</h4>
-                @if (Session::has('error'))
-                    <p class="alert alert-info">{{ Session::get('error') }}</p>
-                @endif
-                @if (Session::has('success'))
-                    <p class="alert alert-success">{{ Session::get('success') }}</p>
-                @endif
+
                 <table id="table" class="table table-bordered  table-hover table-striped mt-3">
                     <thead>
                         <tr>
